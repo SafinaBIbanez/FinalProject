@@ -1,0 +1,137 @@
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: peru;
+  position: fixed;
+}
+
+li 
+{
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: sienna;
+}
+
+.active {
+  background-color: sandybrown;
+}
+
+h1
+{
+  background-color: rgb(255, 197, 88);
+  color: white;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 30px;
+  text-shadow: 2px 2px saddlebrown;
+}
+
+
+img
+{
+padding: 20px;
+margin: 10px;
+}
+
+
+.pec
+{
+float: left;
+}
+
+.peclink
+{
+float: left;
+margin: 0px 30px 65px 65px;
+font-family: 'Brush Script MT', cursive;
+font-size: 20px;
+color: midnightblue;
+}
+
+.wwf
+{
+clear: both;
+float: left;
+}
+
+.wwflink
+{
+float: left;
+clear: both;
+margin: 0px 30px 65px 65px;
+font-family: 'Brush Script MT', cursive;
+font-size: 20px;
+color: midnightblue;
+}
+
+.gp
+{
+clear: both;
+float: left;
+margin-bottom: 50px;
+}
+
+.gpp
+{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 200px;
+  text-align: justify;
+  border: 2px solid chocolate;
+  background-color: rgb(255, 197, 88);
+}
+
+.gplink
+{
+float: left;
+clear: both;
+margin: 0px 30px 65px 65px;
+font-family: 'Brush Script MT', cursive;
+font-size: 20px;
+color: midnightblue;
+}
+
+.glopal
+{
+float: right;
+}
+
+body 
+{
+  background-color: cadetblue;
+}
+
+p 
+{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 20px;
+  padding: 20px;
+  margin: 100px;
+  text-align: justify;
+  border: 2px solid chocolate;
+  background-color: rgb(255, 197, 88);
+}
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn 
+{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
