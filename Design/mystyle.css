@@ -1,3 +1,55 @@
+aside 
+{
+  width: 20%;
+  float: right;
+  font-style: italic;
+  background-color: palegoldenrod;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  margin: 15px;
+  text-align: justify;
+  border: 2px solid chocolate;
+  background-color: rgb(255, 197, 88);
+}
+
+footer > p
+{
+text-align: center;
+padding: 3px;
+background-color: Sienna;
+color: black;
+}
+
+.yowsers
+{
+  margin: 0;
+  padding: 5px;
+  background-color: peru;
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-shadow: 2px 2px chocolate
+}
+
+.yowsers > h1, .browser 
+{
+  margin: 10px;
+  padding: 5px;
+}
+
+.wowser
+{
+  background: peru;
+}
+
+.wowser > h2, p 
+{
+  margin: 4px;
+  font-size: 30px;
+}
+
 ul 
 {
   list-style-type: none;
@@ -19,7 +71,7 @@ li a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Brush Script MT', cursive;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 20px;
 }
 
@@ -33,7 +85,17 @@ li a:hover:not(.active) {
 
 body 
 {
-  background-color: DarkSeaGreen;
+  background-color: Moccasin;
+}
+
+h1
+{
+  background-color: sienna;
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px chocolate
 }
 
 h2
@@ -41,7 +103,7 @@ h2
   background-color: rgb(255, 197, 88);
   color: white;
   text-align: center;
-  font-family: 'Brush Script MT', cursive;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 30px;
   text-shadow: 2px 2px chocolate
 }
@@ -50,7 +112,7 @@ h3
 {
   color: white;
   text-align: center;
-  font-family: 'Brush Script MT', cursive;
+ font-family: 'Trebuchet MS', sans-serif;
   font-size: 30px;
   text-shadow: 2px 2px black;
 }
@@ -58,14 +120,14 @@ h3
 
 p 
 {
-  font-family: 'Brush Script MT', cursive;
+  font-family: 'Trebuchet MS', sans-serif;
   font-size: 20px;
   padding: 20px;
   margin: 15px;
   text-align: justify;
   border: 2px solid chocolate;
   background-color: rgb(255, 197, 88);
-  text-indent: 45px;
+
 }
 
 .fade-in-image { animation: fadeIn 5s; }
