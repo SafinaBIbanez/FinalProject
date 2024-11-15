@@ -1,3 +1,10 @@
+hr
+{
+height: 10px;
+border: none;
+background: white;
+}
+
 ul 
 {
   list-style-type: none;
@@ -20,7 +27,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 li a:hover:not(.active) {
@@ -60,7 +67,6 @@ float: left;
 margin: 0px 30px 65px 65px;
   font-family: 'Trebuchet MS', sans-serif;
 font-size: 20px;
-color: midnightblue;
 }
 
 .wwf
@@ -76,7 +82,6 @@ clear: both;
 margin: 0px 30px 65px 65px;
   font-family: 'Trebuchet MS', sans-serif;
 font-size: 20px;
-color: midnightblue;
 }
 
 .gp
@@ -104,7 +109,6 @@ clear: both;
 margin: 0px 30px 65px 65px;
   font-family: 'Trebuchet MS', sans-serif;
 font-size: 20px;
-color: midnightblue;
 }
 
 .glopal
@@ -135,3 +139,36 @@ p
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+a:link
+{
+color: Orange;
+border: 2px solid peru;
+background-color: wheat;
+padding: 3px 4px;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:visited
+{
+color: SaddleBrown;
+border: 2px solid peru;
+padding: 3px 4px;
+}
+
+a:hover
+{
+color: OrangeRed;
+border: 2px solid peru;
+padding: 3px 4px;
+}
+
+a:active 
+{
+color: Sienna;
+border: 2px solid peru;
+padding: 3px 4px;
+}
+
+
