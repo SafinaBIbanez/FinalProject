@@ -1,3 +1,19 @@
+.spritetwt
+{
+background: url('../Images/socmed.png') no-repeat -436px -37px;
+width: 128px;
+height: 108px;
+display: inline-block;
+}
+
+.spriteinst
+{
+background: url('../Images/socmed.png') no-repeat -36px -27px;
+width: 128px;
+height: 128px;
+display: inline-block;
+}
+
 aside 
 {
   width: 20%;
