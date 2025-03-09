@@ -1,0 +1,260 @@
+.link 
+{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin: 15px;
+    text-align: justify;
+    text-decoration: none; 
+}
+
+a[href^="https://en.wikipedia.org"] 
+{
+    color: white; 
+}
+.rotateaaa
+{
+    transform: rotate(10deg);
+}
+
+.spritetwt
+{
+    background: url('../Images/socmed.png') no-repeat -436px -37px;
+    width: 128px;
+    height: 108px;
+    display: inline-block;
+    position: relative;
+    animation: moveSprite 2s infinite alternate ease-in-out;
+}
+
+.spriteinst 
+{
+    background: url('../Images/socmed.png') no-repeat -36px -27px;
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+    position: relative;
+    animation: moveSprite 2s infinite alternate ease-in-out;
+}
+
+@keyframes moveSprite 
+{
+    0% 
+    {
+        transform: translateX(0);
+    }
+    100% 
+    {
+        transform: translateX(50px);
+    }
+}
+
+
+
+aside 
+{
+  width: 20%;
+  float: right;
+  font-style: italic;
+  background-color: palegoldenrod;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  margin: 15px;
+  text-align: justify;
+  border: 2px solid chocolate;
+  background-color: rgb(255, 197, 88);
+}
+
+footer > p
+{
+text-align: center;
+padding: 3px;
+background-color: Sienna;
+color: black;
+}
+
+.yowsers
+{
+  margin: 0;
+  padding: 5px;
+  background-color: peru;
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-shadow: 2px 2px chocolate
+}
+
+.yowsers > h1, .browser 
+{
+  margin: 10px;
+  padding: 5px;
+}
+
+.wowser
+{
+  background: peru;
+}
+
+.wowser > h2, p 
+{
+  margin: 4px;
+  font-size: 30px;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: peru;
+  position: fixed;
+}
+
+li 
+{
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: sienna;
+}
+
+.active {
+  background-color: sandybrown;
+}
+
+body 
+{
+  background-color: Moccasin;
+  background: linear-gradient(to bottom, Moccasin, Bisque, Burlywood);
+}
+
+h1
+{
+  background-color: sienna;
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px chocolate
+}
+
+h2
+{
+  background-color: rgb(255, 197, 88);
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-shadow: 2px 2px chocolate
+}
+
+h3
+{
+  color: white;
+  text-align: center;
+ font-family: 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+}
+
+
+p 
+{
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  margin: 15px;
+  text-align: justify;
+  border: 2px solid chocolate;
+  background-color: rgb(255, 197, 88);
+
+}
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn 
+{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+}
+
+#mysuperawesomequiz 
+{
+    background-color: white;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#question 
+{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.option-btn 
+{
+    position: relative;
+    background-color: sandybrown;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.option-btn::before 
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.option-btn:hover 
+{
+    background-color: sienna;
+    transform: scale(1.05);
+}
+
+.option-btn:hover::before 
+{
+    transform: scale(1.1);
+}
+
+#mysuperawesomequiz h2 
+{
+    color: sienna;
+}
+
+#mysuperawesomequiz p 
+{
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
