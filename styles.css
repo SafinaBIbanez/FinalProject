@@ -1,0 +1,165 @@
+ul 
+{
+  list-style-type: none;
+  margin: 20px auto;
+  padding: 0;
+  background-color: peru;
+  width: 90%;
+  max-width: 1000px;
+  border: 2px solid chocolate;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+li 
+{
+  display: inline;
+}
+
+li a 
+{
+  display: inline-block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+li a:hover:not(.active) 
+{
+  background-color: sienna;
+  border-radius: 5px;
+}
+
+.active 
+{
+  background-color: sandybrown;
+  border-radius: 5px;
+}
+
+
+body 
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  background: linear-gradient(to bottom, moccasin, bisque, burlywood);
+}
+
+
+header 
+{
+  background-color: sienna;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 2px 2px chocolate;
+}
+
+header h1 
+{
+  margin: 0;
+  font-size: 40px;
+  text-shadow: 2px 2px chocolate;
+}
+
+.tagline 
+{
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+
+.form-container 
+{
+  background-color: #fff3e0;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 2px solid chocolate;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(139, 69, 19, 0.3);
+}
+
+
+label 
+{
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: sienna;
+}
+
+input,
+textarea 
+{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid peru;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+input[type="radio"] 
+{
+  margin-right: 5px;
+}
+
+textarea 
+{
+  height: 100px;
+  resize: vertical;
+}
+
+
+
+button 
+{
+  background-color: sandybrown;
+  color: white;
+  font-size: 18px;
+  padding: 12px 25px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px chocolate;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover 
+{
+  background-color: sienna;
+  transform: scale(1.05);
+}
+
+
+.profile 
+{
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #fff3e0;
+  border: 2px solid chocolate;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(139, 69, 19, 0.3);
+}
+
+.profile p 
+{
+  background-color: rgb(255, 197, 88);
+  color: black;
+  font-size: 18px;
+  margin: 15px 0;
+  padding: 15px;
+  border: 2px solid chocolate;
+  border-radius: 5px;
+  text-align: justify;
+  line-height: 1.4;
+}

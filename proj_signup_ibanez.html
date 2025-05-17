@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Glo-PAL Warming - Signup</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Glo-PAL Warming</h1>
+    <img src="Images/glopal.png" height=200px width=200px>
+    <p class="tagline">Join us in CLIMATE ACTION!</p>
+  </header>
+
+  <section class="form-container">
+    <form id="signupForm">
+      <label>First Name *<input type="text" id="firstName" required></label>
+      <label>Last Name *<input type="text" id="lastName" required></label>
+      
+      <label>Sex * 
+        <div>
+          <label><input type="radio" name="sex" value="Male" required> Male</label>
+          <label><input type="radio" name="sex" value="Female" /> Female</label>
+          <label><input type="radio" name="sex" value="Prefer not to say" /> Prefer not to say</label>
+        </div>
+      </label>
+
+      <label>Email Address *<input type="email" id="email" required></label>
+      <label>Password *<input type="password" id="password" required></label>
+      <label>Contact Number <input type="text" id="contact" /></label>
+      
+      <label>Why you're supporting our campaign * 
+      <textarea id="reason" required></textarea>
+      </label>
+
+
+      <button type="submit">Join Glo-PAL</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
